@@ -1,0 +1,10 @@
+img{
+    border-width: 10px;
+    border-color: #CCCCCC;
+    border-style: solid;
+    width:50%;
+}
+.panneau{
+   margin : 50px auto;
+   text-align: center;
+}

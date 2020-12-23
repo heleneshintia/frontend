@@ -1,0 +1,69 @@
+body{
+    background-color: #f4f4f4;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
+.icone{
+    width: 30%;
+}
+.logoicon{
+    width: 10%;
+}
+
+
+.handwriting{
+    font-family: 'Kristi', cursive;
+    font-size: 55px;
+
+}
+
+h1{
+    font-family: 'Kristi', cursive;
+    font-size: 85px;
+    color: #f0a500; 
+}
+
+#menutitle{
+
+    background-color: #cf7500;
+  }
+
+
+
+/*
+To change color navbar, delete bg-light de Bootstrap, ensuite faire : 
+.navbar{
+    background-color: #555555;
+}
+*/
+
+
+.navbar-light .navbar-nav .nav-link{
+      font-size: 1.2rem;
+      color: #ffffff;
+      text-transform: uppercase;
+      padding-right: 3rem; 
+  }
+
+  
+
+  @media (max-width : 1000px){
+    h1{
+        font-family: 'Kristi', cursive;
+        font-size: 60px;
+        color: #1a1c20; 
+    }
+  }
+
+  /* 
+  @media (min-width : 1000px) and (max-width : 1400px){
+     h1{
+        font-family: 'Kristi', cursive;
+        font-size: 60px;
+        color: #1a1c20; 
+    }
+
+
+ }
+
+  */
